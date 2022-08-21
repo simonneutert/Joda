@@ -18,9 +18,9 @@ class App < Roda
 
   plugin :json
 
-  route do |r|
-    @data = { data: JSON.parse(File.read('./public/large-file.json')) }
+  @data = { data: JSON.parse(File.read('./public/large-file.json')) }
 
+  route do |r|
     # GET / request
     r.root do
       r.redirect '/hello'
