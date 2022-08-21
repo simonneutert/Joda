@@ -8,6 +8,7 @@ ADD Gemfile* /app/
 RUN bundle install -j4
 
 COPY public /app/public
+COPY config /app/config
 COPY db.rb app.rb config.ru /app/
 
 EXPOSE 9292
