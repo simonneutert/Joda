@@ -18,7 +18,7 @@ class App < Roda
 
   plugin :json
 
-  @data = { data: JSON.parse(File.read('./public/large-file.json')) }
+  data = { data: JSON.parse(File.read('./public/large-file.json')) }
 
   route do |r|
     # GET / request
@@ -32,7 +32,7 @@ class App < Roda
       end
 
       r.is do
-        @data
+        data
       end
     end
 
