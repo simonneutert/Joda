@@ -46,6 +46,31 @@ class App < Roda
         "#{@greeting} world!"
       end
 
+      r.on String do |name|
+        <<~HTML
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Joda Document</title>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+        </head>
+        <body>
+          <div class="px-4 py-5 my-5 text-center">
+            <img class="d-block mx-auto mb-4" src="https://www.jruby.org/images/jruby-logo.png" alt="JRuby Logo" max-width="100%">
+            <h1 class="display-5 fw-bold">Joda 🖖 == JRuby + Roda</h1>
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">Hello, #{name.capitalize}!</p>
+            </div>
+          </div> 
+        </body>
+        </html>
+        HTML
+      end
+
       # /hello request
       r.is do
         # GET /hello request
