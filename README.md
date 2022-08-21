@@ -71,3 +71,7 @@ Tags/Keywords: Ruby, JRuby, Java, Roda, Sequel, JDBC, REST, API, JSON
 #### Other
 
 - large file json taken from https://github.com/json-iterator/test-data/blob/master/large-file.json
+
+#### known problems
+
+- H2 database won't be high performant and throw errors (use i.e. Postgres for measurements)
