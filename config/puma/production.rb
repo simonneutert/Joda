@@ -1,1 +1,3 @@
-threads 14, 18
+# frozen_string_literal: true
+
+threads 0, 16

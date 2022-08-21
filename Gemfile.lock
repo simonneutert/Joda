@@ -9,7 +9,7 @@ GEM
     e2mmap (0.1.0)
     ffi (1.15.5-java)
     jaro_winkler (1.5.4-java)
-    jdbc-sqlite3 (3.28.0)
+    jdbc-h2 (2.0.204)
     json (2.6.2-java)
     kramdown (2.4.0)
       rexml
@@ -83,7 +83,7 @@ PLATFORMS
   universal-java-17
 
 DEPENDENCIES
-  jdbc-sqlite3 (~> 3.28)
+  jdbc-h2 (~> 2.0)
   pry-debugger-jruby (~> 2.1)
   puma (~> 5.6)
   roda (~> 3.59)
@@ -92,4 +92,4 @@ DEPENDENCIES
   solargraph (~> 0.45.0)
 
 BUNDLED WITH
-   2.2.29
+   2.3.20

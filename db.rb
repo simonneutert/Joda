@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
 # connect to an in-memory database
-require 'jdbc/sqlite3'
-Jdbc::SQLite3.load_driver
-DB = Sequel.jdbc('jdbc:sqlite::memory:')
+require 'jdbc/h2'
+Jdbc::H2.load_driver
+DB = Sequel.connect('jdbc:h2:mem:')
 
 # want to use postgres?
 # switch gems in the Gemfile

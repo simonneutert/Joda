@@ -23,8 +23,7 @@ class App < Roda
 
     # GET / request
     r.root do
-      # r.redirect '/hello'
-      '/hello'
+      r.redirect '/hello'
     end
 
     r.on 'jsondata' do
@@ -64,7 +63,7 @@ class App < Roda
 
     r.on 'check_scope' do
       if @greeting
-        "#{@greeting}"
+        @greeting.to_s
       else
         '@greeting is out of scope'
       end
