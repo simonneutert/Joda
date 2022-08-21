@@ -22,7 +22,7 @@ Java docs?! Java ecosystem?! They do what? How on earth? Cheesus ... 🤢
 - [Rack](https://github.com/rack/rack) fanboys
 - [Sinatra](https://sinatrarb.com) / [Fastify](https://www.fastify.io) / [FastAPI](https://fastapi.tiangolo.com) / [Gin](https://github.com/gin-gonic/gin)
 - Java people / JVM users ☕️
-- those on a journey, they don't they are on: Ruby ➡ JRuby ➡ [Clojure](https://clojure.org/guides/getting_started) ☮️
+- those on a journey, they don't know, they are on: Ruby ➡ JRuby ➡ [Clojure](https://clojure.org/guides/getting_started) ☮️
 
 ## Run
 
