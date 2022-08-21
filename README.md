@@ -180,6 +180,8 @@ I suggest you stumble through the Website
 - large file json taken from:  
   https://github.com/json-iterator/test-data/blob/master/large-file.json
 
+- Inspiration sparked the amazing [Ruby for all Podcast](https://www.rubyforall.com/) 👋 You guys rock!
+
 #### SEO Stuff 🤭
 
 Tags/Keywords: Ruby, JRuby, Java, Roda, Sequel, JDBC, Puma, REST, API, JSON
