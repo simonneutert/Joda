@@ -4,7 +4,7 @@ RUN apt-get update -y && apt-get install netbase -y
 
 WORKDIR /app
 
-ADD Gemfile* .
+ADD Gemfile* /app/
 RUN bundle install -j4
 
 COPY public /app/public
