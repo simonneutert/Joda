@@ -67,7 +67,7 @@ or:
 
 **FIRST OF ALL** the JVM had some requests before the benchs to warm up a little  
 **BUT** let's be honest the server wasn't fresh and had already other stuff to do  
-**AND** had just 2 cores (but 8 gigs of RAM 😅)
+**AND** had just 2 cores (but 8 gigs of RAM 😅)  
 **AND** for sure I missed an opportunity for tweaking something  
 **BECAUSE** the JVM still is completely new to me at this point  
 **SO** this is worthless, but some just need to see some numbers
@@ -172,7 +172,7 @@ when load testing `/jsondata/items` route:
 
 there's so much beauty in Roda, so it would be nice to showcase more of it.
 
-I suggest you stumble through the Website
+I suggest you stumble through the following websites:
 
 - [Roda's Website](https://roda.jeremyevans.net)
 - Federico's and [Avdi](https://avdi.codes)'s Book: [Mastering Roda](https://fiachetti.gitlab.io/mastering-roda/)
