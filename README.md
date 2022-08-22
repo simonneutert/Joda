@@ -67,10 +67,10 @@ or:
 
 **FIRST OF ALL** the JVM had some requests before the benchs to warm up a little  
 **BUT** let's be honest the server wasn't fresh and had already other stuff to do  
-**AND** had 2 just cores (but 8 gigs of RAM 😅)
-**AND** it's for sure I missed an opportunity for tweaking something  
+**AND** had just 2 cores (but 8 gigs of RAM 😅)
+**AND** for sure I missed an opportunity for tweaking something  
 **BECAUSE** the JVM still is completely new to me at this point  
-**SO** this is worthless, but some just need the numbers
+**SO** this is worthless, but some just need to see some numbers
 
 well, enough whining...
 
