@@ -3,7 +3,7 @@
 # connect to an in-memory database
 require 'jdbc/h2'
 Jdbc::H2.load_driver
-DB = Sequel.connect('jdbc:h2:mem:')
+DB = Sequel.connect('jdbc:h2:mem:', single_threaded: true)
 
 # want to use postgres?
 # switch gems in the Gemfile

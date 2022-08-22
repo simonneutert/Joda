@@ -161,7 +161,12 @@ Entering this fancy new rabbit hole, here's what didn't work, or may well be ser
 
 #### Database
 
-- H2 database will crash when load testing these routes and throw horrifying errors, I propose you use Postgres/MySQL/AnyOtherProperDB for mimicking "real-life" server simulation
+when load testing `/jsondata/items` route:
+
+- H2 database is run with `single_threaded: true` and seems to be able to handle higher loads nicely 👏
+  https://sequel.jeremyevans.net/rdoc/files/doc/opening_databases_rdoc.html#label-General+connection+options
+
+- H2 database may crash though, especially without `single_threaded` option, and throw horrifying errors, I propose you use Postgres/MySQL/AnyOtherProperDB for mimicking "real-life" server simulation
 
 #### Roda
 
