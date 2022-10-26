@@ -8,6 +8,7 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 # gem 'jdbc-sqlite3', '~> 3.28'
 gem 'jdbc-h2', '~> 2.0'
 
+gem "rackup", "~> 0.2.2"
 gem 'puma', '~> 5.6'
 gem 'roda', '~> 3.59'
 gem 'sequel', '~> 5.59'
