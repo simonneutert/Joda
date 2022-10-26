@@ -4,6 +4,7 @@ require 'rubygems'
 require 'bundler/setup'
 Bundler.require
 
+require 'rack/deflater'
 require 'roda'
 require 'json'
 require 'pry'
