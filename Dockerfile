@@ -2,15 +2,17 @@ FROM jruby:9.3
 
 RUN apt-get update -y && apt-get install netbase -y
 
-WORKDIR /app
+ENV WORKDIR=/app
+WORKDIR ${WORKDIR}
 
-ADD Gemfile* /app/
+COPY Gemfile* ./
 RUN bundle install -j4
 
-COPY public /app/public
-COPY config /app/config
-COPY db.rb app.rb config.ru /app/
+COPY public ./public
+COPY config ./config
+COPY db.rb app.rb config.ru ./
 
 EXPOSE 9292
 
-CMD rackup -o 0
+# CMD rackup -o0 -Eproduction
+CMD rackup -o0
