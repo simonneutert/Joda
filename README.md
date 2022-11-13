@@ -29,6 +29,11 @@ Java docs?! Java ecosystem?! They do what? How on earth? Cheesus ... 🤢
 
 if one of you gets this going on another OS, please submit a PR with some handy notes ✌️
 
+---
+Problems on m1 and docker? https://github.com/jruby/jruby/issues/6821  
+on x86_64 it runs - no issues whatsoever
+---
+
 ### Docker
 
 - `$ docker build . -t joda`
