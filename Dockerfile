@@ -1,4 +1,4 @@
-FROM jruby:9.3
+FROM jruby:9.4-jdk17
 
 RUN apt-get update -y && apt-get install netbase -y
 
@@ -8,8 +8,9 @@ WORKDIR ${WORKDIR}
 COPY Gemfile* ./
 RUN bundle install -j4
 
-COPY public ./public
+COPY views ./views
 COPY config ./config
+COPY public ./public
 COPY db.rb app.rb config.ru ./
 
 EXPOSE 9292
