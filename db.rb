@@ -35,9 +35,7 @@ begin
   # print out the average price
   # puts "The average price is: #{items.avg(:price)}"
 rescue StandardError => e
-  if e.message.include?('already exists')
-    puts 'no need to create a table, never mind 🤭'
-  else
-    raise e
-  end
+  raise e unless e.message.include?('already exists')
+
+  puts 'no need to create a table, never mind 🤭'
 end

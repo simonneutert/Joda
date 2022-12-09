@@ -34,6 +34,7 @@ GEM
       nio4r (~> 2.0)
     racc (1.6.0-java)
     rack (3.0.1)
+    rack-unreloader (2.0.0)
     rackup (0.2.3)
       rack (>= 3.0.0.beta1)
       webrick
@@ -91,6 +92,7 @@ DEPENDENCIES
   jdbc-h2 (~> 2.0)
   pry-debugger-jruby (~> 2.1)
   puma (~> 5.6)
+  rack-unreloader (~> 2.0)
   rackup (~> 0.2.2)
   roda (~> 3.59)
   rubocop

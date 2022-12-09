@@ -1,16 +1,5 @@
 # frozen_string_literal: true
 
-require 'rubygems'
-require 'bundler/setup'
-Bundler.require
-
-require 'rack/deflater'
-require 'roda'
-require 'json'
-require 'pry'
-
-require_relative 'db'
-
 class App < Roda
   # gzips the http data
   # saved bandwidth at the price of cpu usage for `GET /jsondata`
