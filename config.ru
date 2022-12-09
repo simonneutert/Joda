@@ -1,5 +1,16 @@
 # frozen_string_literal: true
 
-require_relative 'app'
+require 'rubygems'
+require 'bundler/setup'
+Bundler.require
 
-run App.freeze.app
+require 'rack/deflater'
+require 'roda'
+require 'json'
+require 'pry'
+
+require 'rack/unreloader'
+Unreloader = Rack::Unreloader.new(subclasses: %w[Roda]) { App }
+Unreloader.require './app.rb'
+
+run(ENV['RACK_ENV'] == 'development' ? Unreloader : App.freeze.app)
