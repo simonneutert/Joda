@@ -13,4 +13,5 @@ require 'rack/unreloader'
 Unreloader = Rack::Unreloader.new(subclasses: %w[Roda]) { App }
 Unreloader.require './app.rb'
 
-run(ENV['RACK_ENV'] == 'development' ? Unreloader : App.freeze.app)
+dev = ENV['RACK_ENV'] == 'development'
+run(dev ? Unreloader : App.freeze.app)
