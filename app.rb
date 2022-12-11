@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+SAMPLE_DATA = { data: JSON.parse(File.read('./public/large-file.json')) }
 
 #
 # The main App 🎉
@@ -13,8 +14,6 @@ class App < Roda
   plugin :json
   plugin :render
 
-  data = { data: JSON.parse(File.read('./public/large-file.json')) }
-
   route do |r|
     # GET / request
     r.root do
@@ -27,7 +26,7 @@ class App < Roda
       end
 
       r.is do
-        data
+        SAMPLE_DATA
       end
     end
 
