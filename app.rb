@@ -1,5 +1,9 @@
 # frozen_string_literal: true
 
+
+#
+# The main App 🎉
+#
 class App < Roda
   # gzips the http data
   # saved bandwidth at the price of cpu usage for `GET /jsondata`
