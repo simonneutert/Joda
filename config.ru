@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+dev = ENV['RACK_ENV'] == 'development'
+
 require 'rubygems'
 require 'bundler/setup'
 Bundler.require
@@ -7,10 +9,14 @@ Bundler.require
 require 'rack/deflater'
 require 'roda'
 require 'json'
-require 'pry'
+require 'pry' if dev
+
+require 'logger'
+logger = Logger.new($stdout)
 
 require 'rack/unreloader'
-Unreloader = Rack::Unreloader.new(subclasses: %w[Roda]) { App }
+Unreloader = Rack::Unreloader.new(subclasses: %w[Roda], logger: logger) { App }
 Unreloader.require './app.rb'
+Unreloader.require './routes.rb'
 
-run(ENV['RACK_ENV'] == 'development' ? Unreloader : App.freeze.app)
+run(dev ? Unreloader : App.freeze.app)

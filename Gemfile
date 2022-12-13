@@ -18,5 +18,6 @@ group :development do
   gem 'htmlbeautifier'
   gem 'pry-debugger-jruby', '~> 2.1'
   gem 'rubocop', require: false
-  gem 'solargraph', '~> 0.45.0', require: false
+  gem 'solargraph', '~> 0.47.2', require: false
+  gem 'yard', '~> 0.9.28'
 end

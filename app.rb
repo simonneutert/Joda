@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+JSON_FILE = File.read('./public/large-file.json')
+SAMPLE_DATA = { data: JSON.parse(JSON_FILE) }.freeze
 
 #
 # The main App 🎉
@@ -12,8 +14,7 @@ class App < Roda
 
   plugin :json
   plugin :render
-
-  data = { data: JSON.parse(File.read('./public/large-file.json')) }
+  plugin :hash_routes
 
   route do |r|
     # GET / request
@@ -27,13 +28,13 @@ class App < Roda
       end
 
       r.is do
-        data
+        SAMPLE_DATA
       end
     end
 
     # /hello branch
     r.on 'hello' do
-      # Set variable for all routes in /hello branch
+      # Set a variable for all routes in /hello branch
       @greeting = 'Hello'
 
       # GET /hello/world request
@@ -48,12 +49,12 @@ class App < Roda
 
       # /hello request
       r.is do
-        # GET /hello request
+        # GET /hello
         r.get do
           "#{@greeting}!"
         end
 
-        # POST /hello request
+        # POST /hello
         r.post do
           puts "Someone said #{@greeting}!"
           r.redirect
@@ -68,5 +69,7 @@ class App < Roda
         '@greeting is out of scope'
       end
     end
+
+    r.hash_routes
   end
 end

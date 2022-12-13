@@ -2,5 +2,12 @@
   "editor.formatOnSave": true,
   "ruby.useBundler": true,
   "ruby.useLanguageServer": true,
-  "solargraph.useBundler": true
+  "solargraph.useBundler": true,
+  "solargraph.formatting": true,
+  "solargraph.bundlerPath": "/Users/simonneutert/.asdf/shims/bundler",
+  "ruby.lint": {
+    "reek": true,
+    "rubocop": true
+  },
+  "editor.tabSize": 2
 }
