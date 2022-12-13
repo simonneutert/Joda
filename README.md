@@ -9,9 +9,9 @@ sucks 25mb from your server 🧛‍♀️
 
 ## Why though?
 
-I cannot really say why JRuby intriqued me, since I fell in love with Ruby.  
-But, at least for me, JRuby isn't especially beginner friendly. 😬  
-Something didn't work. Very tough to google.  
+I cannot really say why JRuby intriqued me, since I fell in love with Ruby.
+But, JRuby never felt especially beginner friendly. 😬  
+Something didn't work. Very tough to google. JDBC what?  
 Java docs?! Java ecosystem?! They do what? How on earth? Cheesus ... 🤢
 
 ## This repository is aimed at

@@ -9,5 +9,11 @@
 #
 # See https://docs.rubocop.org/rubocop/configuration
 
+require:
+  - rubocop-performance
+
+AllCops:
+  TargetRubyVersion: 3.1
+
 Metrics/BlockLength:
   Enabled: false
