@@ -15,7 +15,7 @@ require 'logger'
 logger = Logger.new($stdout)
 
 require 'rack/unreloader'
-Unreloader = Rack::Unreloader.new(subclasses: %w[Roda], logger: logger) { App }
+Unreloader = Rack::Unreloader.new(subclasses: %w[Roda], logger:) { App }
 Unreloader.require './app.rb'
 Unreloader.require './routes.rb'
 

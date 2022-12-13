@@ -5,8 +5,12 @@ GEM
     backport (1.2.0)
     benchmark (0.2.1)
     coderay (1.1.3)
+    colorize (0.8.1)
     diff-lcs (1.5.0)
     e2mmap (0.1.0)
+    fasterer (0.10.0)
+      colorize (~> 0.7)
+      ruby_parser (>= 3.19.1)
     ffi (1.15.5-java)
     htmlbeautifier (1.4.2)
     jaro_winkler (1.5.4)
@@ -67,9 +71,15 @@ GEM
       unicode-display_width (>= 1.4.0, < 3.0)
     rubocop-ast (1.24.0)
       parser (>= 3.1.1.0)
+    rubocop-performance (1.15.1)
+      rubocop (>= 1.7.0, < 2.0)
+      rubocop-ast (>= 0.4.0)
     ruby-debug-base (0.11.0-java)
     ruby-progressbar (1.11.0)
+    ruby_parser (3.19.2)
+      sexp_processor (~> 4.16)
     sequel (5.63.0)
+    sexp_processor (4.16.1)
     solargraph (0.47.2)
       backport (~> 1.2)
       benchmark
@@ -101,6 +111,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  fasterer (~> 0.10.0)
   htmlbeautifier
   jdbc-h2 (~> 2.0)
   minitest (~> 5.16)
@@ -111,6 +122,7 @@ DEPENDENCIES
   rake (~> 13.0)
   roda (~> 3.59)
   rubocop
+  rubocop-performance
   sequel (~> 5.59)
   solargraph (~> 0.47.2)
   yard (~> 0.9.28)

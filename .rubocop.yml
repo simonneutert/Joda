@@ -9,6 +9,9 @@
 #
 # See https://docs.rubocop.org/rubocop/configuration
 
+require:
+  - rubocop-performance
+
 AllCops:
   TargetRubyVersion: 3.1
 

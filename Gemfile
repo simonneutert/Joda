@@ -16,9 +16,11 @@ gem 'roda', '~> 3.59'
 gem 'sequel', '~> 5.59'
 
 group :development do
+  gem 'fasterer', '~> 0.10.0', require: false
   gem 'htmlbeautifier'
   gem 'pry-debugger-jruby', '~> 2.1'
   gem 'rubocop', require: false
+  gem 'rubocop-performance', require: false
   gem 'solargraph', '~> 0.47.2', require: false
   gem 'yard', '~> 0.9.28'
 end
