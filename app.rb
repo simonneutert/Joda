@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
-SAMPLE_DATA = { data: JSON.parse(File.read('./public/large-file.json')) }.freeze
+JSON_FILE = File.read('./public/large-file.json')
+SAMPLE_DATA = { data: JSON.parse(JSON_FILE) }.freeze
 
 #
 # The main App 🎉

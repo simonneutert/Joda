@@ -11,7 +11,7 @@ class App < Roda
     end
 
     r.on 'v1' do
-      r.hash_routes('/api/v1')
+      r.hash_routes '/api/v1'
     end
   end
 end
