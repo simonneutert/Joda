@@ -7,6 +7,8 @@ Start the server with `$ rackup`, then benchmark (see below) as unscientifically
 `$ time http :9292/jsondata >/dev/null`  
 sucks 25mb from your server 🧛‍♀️
 
+Add [rodauth](https://github.com/jeremyevans/rodauth) to have a proper user account management 🤯
+
 ## Why though?
 
 I cannot really say why JRuby intriqued me, since I fell in love with Ruby.

@@ -1,5 +1,6 @@
 name: Minitest for Head language versions
-on: [push, pull_request]
+on:
+  - pull_request
 jobs:
   test:
     strategy:
