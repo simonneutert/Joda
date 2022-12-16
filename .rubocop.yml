@@ -10,9 +10,9 @@
 # See https://docs.rubocop.org/rubocop/configuration
 
 require:
+  - rubocop-minitest
   - rubocop-rake
   - rubocop-performance
-  - rubocop-minitest
   - rubocop-sequel
 
 AllCops:
