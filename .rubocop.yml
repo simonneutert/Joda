@@ -10,10 +10,16 @@
 # See https://docs.rubocop.org/rubocop/configuration
 
 require:
+  - rubocop-rake
   - rubocop-performance
+  - rubocop-minitest
+  - rubocop-sequel
 
 AllCops:
   TargetRubyVersion: "3.0"
 
 Metrics/BlockLength:
+  Enabled: false
+
+Style/Documentation:
   Enabled: false

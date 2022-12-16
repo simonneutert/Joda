@@ -21,20 +21,17 @@ class TestApp < Minitest::Test
   def test_root_redirection
     get '/'
     follow_redirect!
-
     assert last_response.ok?
     assert_equal last_response.body, 'Hello!'
   end
 
   def test_api_health
     get '/api/health'
-
     assert last_response.ok?
   end
 
   def test_api_v1_health
     get '/api/v1/health'
-
     assert last_response.ok?
   end
 end
