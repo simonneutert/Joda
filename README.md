@@ -44,7 +44,7 @@ Then fire the following commands:
 
 - `$ asdf install java microsoft-17.35.1`
 - `$ asdf reshim`
-- `$ asdf install ruby jruby-9.4.0.0`
+- `$ asdf install ruby jruby-9.4.1.0`
 - `$ bundle install -j4`
 - `$ jruby -S rackup`
 
