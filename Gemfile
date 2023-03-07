@@ -12,7 +12,7 @@ gem 'puma', '~> 5.6'
 gem 'rack-unreloader', '~> 2.0'
 gem 'rackup', '~> 0.2.2'
 gem 'rake', '~> 13.0'
-gem 'roda', '~> 3.59'
+gem 'roda', '~> 3.65'
 gem 'sequel', '~> 5.59'
 
 group :development do
