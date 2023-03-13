@@ -8,7 +8,7 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 # gem 'jdbc-sqlite3', '~> 3.28'
 gem 'jdbc-h2', '~> 2.0'
 
-gem 'puma', '~> 5.6'
+gem 'puma', '~> 6.1'
 gem 'rack-unreloader', '~> 2.1'
 gem 'rackup', '~> 0.2.2'
 gem 'rake', '~> 13.0'
