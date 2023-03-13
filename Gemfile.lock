@@ -73,8 +73,8 @@ GEM
       unicode-display_width (>= 2.4.0, < 3.0)
     rubocop-ast (1.27.0)
       parser (>= 3.2.1.0)
-    rubocop-minitest (0.25.1)
-      rubocop (>= 0.90, < 2.0)
+    rubocop-minitest (0.29.0)
+      rubocop (>= 1.39, < 2.0)
     rubocop-performance (1.16.0)
       rubocop (>= 1.7.0, < 2.0)
       rubocop-ast (>= 0.4.0)
@@ -131,7 +131,7 @@ DEPENDENCIES
   rake (~> 13.0)
   roda (~> 3.65)
   rubocop
-  rubocop-minitest (~> 0.25.0)
+  rubocop-minitest (~> 0.29.0)
   rubocop-performance
   rubocop-rake (~> 0.6.0)
   rubocop-sequel (~> 0.3.4)
