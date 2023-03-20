@@ -8,7 +8,7 @@ GEM
     colorize (0.8.1)
     diff-lcs (1.5.0)
     e2mmap (0.1.0)
-    fasterer (0.10.0)
+    fasterer (0.10.1)
       colorize (~> 0.7)
       ruby_parser (>= 3.19.1)
     ffi (1.15.5-java)
@@ -119,7 +119,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  fasterer (~> 0.10.0)
+  fasterer (~> 0.10.1)
   htmlbeautifier
   jdbc-h2 (~> 2.0)
   minitest (~> 5.16)
