@@ -25,7 +25,7 @@ group :development do
   gem 'rubocop-performance', require: false
   gem 'rubocop-rake', '~> 0.6.0', require: false
   gem 'solargraph', '~> 0.48.0', require: false
-  gem 'yard', '~> 0.9.28'
+  gem 'yard', '~> 0.9.32'
 end
 
 group :test do
