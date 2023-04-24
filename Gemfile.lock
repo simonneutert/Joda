@@ -109,7 +109,7 @@ GEM
     tilt (2.1.0)
     unicode-display_width (2.4.2)
     webrick (1.8.1)
-    yard (0.9.32)
+    yard (0.9.34)
 
 PLATFORMS
   universal-java-1.8
@@ -136,7 +136,7 @@ DEPENDENCIES
   rubocop-sequel (~> 0.3.4)
   sequel (~> 5.67)
   solargraph (~> 0.48.0)
-  yard (~> 0.9.28)
+  yard (~> 0.9.34)
 
 BUNDLED WITH
    2.4.7
