@@ -20,7 +20,7 @@ group :development do
   gem 'htmlbeautifier'
   gem 'pry-debugger-jruby', '~> 2.1'
   gem 'rubocop', require: false
-  gem 'rubocop-minitest', '~> 0.30.0', require: false
+  gem 'rubocop-minitest', '~> 0.31.0', require: false
   gem 'rubocop-sequel', '~> 0.3.4', require: false
   gem 'rubocop-performance', require: false
   gem 'rubocop-rake', '~> 0.6.0', require: false
