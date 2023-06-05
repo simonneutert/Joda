@@ -86,7 +86,7 @@ GEM
     ruby-progressbar (1.13.0)
     ruby_parser (3.20.0)
       sexp_processor (~> 4.16)
-    sequel (5.68.0)
+    sequel (5.69.0)
     sexp_processor (4.16.1)
     solargraph (0.48.0)
       backport (~> 1.2)
@@ -134,7 +134,7 @@ DEPENDENCIES
   rubocop-performance
   rubocop-rake (~> 0.6.0)
   rubocop-sequel (~> 0.3.4)
-  sequel (~> 5.68)
+  sequel (~> 5.69)
   solargraph (~> 0.48.0)
   yard (~> 0.9.34)
 
