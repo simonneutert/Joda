@@ -23,20 +23,17 @@ GEM
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     method_source (1.0.0)
-    mini_portile2 (2.8.2)
     minitest (5.18.0)
     nio4r (2.5.9)
     nio4r (2.5.9-java)
-    nokogiri (1.14.3)
-      mini_portile2 (~> 2.8.0)
-      racc (~> 1.4)
     nokogiri (1.14.3-java)
       racc (~> 1.4)
     nokogiri (1.14.3-x86_64-linux)
       racc (~> 1.4)
     parallel (1.23.0)
-    parser (3.2.2.1)
+    parser (3.2.2.3)
       ast (~> 2.4.1)
+      racc
     pry (0.14.2-java)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -59,16 +56,16 @@ GEM
       webrick (~> 1.8)
     rainbow (3.1.1)
     rake (13.0.6)
-    regexp_parser (2.8.0)
+    regexp_parser (2.8.1)
     reverse_markdown (2.1.1)
       nokogiri
     rexml (3.2.5)
     roda (3.68.0)
       rack
-    rubocop (1.52.0)
+    rubocop (1.52.1)
       json (~> 2.3)
       parallel (~> 1.10)
-      parser (>= 3.2.0.0)
+      parser (>= 3.2.2.3)
       rainbow (>= 2.2.2, < 4.0)
       regexp_parser (>= 1.8, < 3.0)
       rexml (>= 3.2.5, < 4.0)
@@ -116,7 +113,6 @@ GEM
     yard (0.9.34)
 
 PLATFORMS
-  ruby
   universal-java-1.8
   universal-java-11
   universal-java-17
