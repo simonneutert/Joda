@@ -24,7 +24,7 @@ GEM
       kramdown (~> 2.0)
     language_server-protocol (3.17.0.3)
     method_source (1.0.0)
-    minitest (5.18.1)
+    minitest (5.19.0)
     nio4r (2.5.9)
     nio4r (2.5.9-java)
     nokogiri (1.14.3-java)
@@ -124,7 +124,7 @@ DEPENDENCIES
   fasterer (~> 0.10.1)
   htmlbeautifier
   jdbc-h2 (~> 2.0)
-  minitest (~> 5.18)
+  minitest (~> 5.19)
   pry-debugger-jruby (~> 2.1)
   puma (~> 6.3)
   rack-test (~> 2.1)
