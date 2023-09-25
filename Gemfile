@@ -14,7 +14,7 @@ gem 'puma', '~> 6.3'
 gem 'rack-unreloader', '~> 2.1'
 gem 'rackup', '~> 2.1.0'
 gem 'rake', '~> 13.0'
-gem 'roda', '~> 3.71'
+gem 'roda', '~> 3.72'
 gem 'sequel', '~> 5.72'
 
 group :development do
