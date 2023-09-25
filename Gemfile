@@ -10,7 +10,7 @@ group :database do
   gem 'jdbc-h2', '~> 2.0'
 end
 
-gem 'puma', '~> 6.3'
+gem 'puma', '~> 6.4'
 gem 'rack-unreloader', '~> 2.1'
 gem 'rackup', '~> 2.1.0'
 gem 'rake', '~> 13.0'
