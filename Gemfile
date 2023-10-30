@@ -13,7 +13,7 @@ end
 gem 'puma', '~> 6.4'
 gem 'rack-unreloader', '~> 2.1'
 gem 'rackup', '~> 2.1.0'
-gem 'rake', '~> 13.0'
+gem 'rake', '~> 13.1'
 gem 'roda', '~> 3.73'
 gem 'sequel', '~> 5.73'
 
