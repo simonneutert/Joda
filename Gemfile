@@ -15,7 +15,7 @@ gem 'rack-unreloader', '~> 2.1'
 gem 'rackup', '~> 2.1.0'
 gem 'rake', '~> 13.1'
 gem 'roda', '~> 3.73'
-gem 'sequel', '~> 5.73'
+gem 'sequel', '~> 5.74'
 
 group :development do
   gem 'fasterer', '~> 0.10.1', require: false
