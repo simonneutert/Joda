@@ -1,6 +1,6 @@
 FROM jruby:9.4-jdk17
 
-RUN apt-get update -y && apt-get install netbase -y
+RUN apt-get update -y && apt-get install netbase libjemalloc2 -y
 
 ENV WORKDIR=/app
 WORKDIR ${WORKDIR}

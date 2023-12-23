@@ -38,6 +38,23 @@ if one of you gets this going on another OS, please submit a PR with some handy 
 - `$ docker build . -t joda`
 - `$ docker run --rm -it -p9292:9292 joda`
 
+#### with jemalloc
+
+For aarch64 (e.g. Mac M1):
+
+- `$ docker run -ti --env LD_PRELOAD=/usr/lib/aarch64-linux-gnu/libjemalloc.so.2 --rm -p9292:9292`
+
+For x86_64:
+
+- `$ docker run -ti --env LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libjemalloc.so.2 --rm -p9292:9292`
+
+#### Production
+
+🚀
+
+- `$ docker run -ti --env LD_PRELOAD=/usr/lib/aarch64-linux-gnu/libjemalloc.so.2 --rm -p9292:9292 rackup -o 0 -E production`
+
+
 ### MacOS and asdf
 
 please, see the docs of your [asdf-vm](https://asdf-vm.com) java plugin ([docs of the default java plugin 📖](https://github.com/halcyon/asdf-java#java_home)). It's about JRuby having Java in it's PATH.
