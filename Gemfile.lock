@@ -3,9 +3,8 @@ GEM
   specs:
     ast (2.4.2)
     backport (1.2.0)
-    benchmark (0.2.1)
-    bigdecimal (3.1.4)
-    bigdecimal (3.1.4-java)
+    benchmark (0.3.0)
+    bigdecimal (3.1.5-java)
     coderay (1.1.3)
     colorize (0.8.1)
     diff-lcs (1.5.0)
@@ -15,11 +14,9 @@ GEM
       ruby_parser (>= 3.19.1)
     ffi (1.16.3-java)
     htmlbeautifier (1.4.2)
-    jaro_winkler (1.5.6)
     jaro_winkler (1.5.6-java)
     jdbc-h2 (2.0.204)
-    json (2.6.3)
-    json (2.6.3-java)
+    json (2.7.1-java)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -27,13 +24,10 @@ GEM
     language_server-protocol (3.17.0.3)
     method_source (1.0.0)
     minitest (5.20.0)
-    nio4r (2.5.9)
-    nio4r (2.5.9-java)
-    nokogiri (1.15.4-java)
+    nio4r (2.7.0-java)
+    nokogiri (1.15.5-java)
       racc (~> 1.4)
-    nokogiri (1.15.4-x86_64-linux)
-      racc (~> 1.4)
-    parallel (1.23.0)
+    parallel (1.24.0)
     parser (3.2.2.4)
       ast (~> 2.4.1)
       racc
@@ -44,12 +38,9 @@ GEM
     pry-debugger-jruby (2.1.1-java)
       pry (>= 0.13, < 0.15)
       ruby-debug-base (>= 0.10.4, < 0.12)
-    puma (6.4.0)
-      nio4r (~> 2.0)
     puma (6.4.0-java)
       nio4r (~> 2.0)
-    racc (1.7.1)
-    racc (1.7.1-java)
+    racc (1.7.3-java)
     rack (3.0.8)
     rack-test (2.1.0)
       rack (>= 1.3)
@@ -59,13 +50,13 @@ GEM
       webrick (~> 1.8)
     rainbow (3.1.1)
     rake (13.1.0)
-    regexp_parser (2.8.2)
+    regexp_parser (2.8.3)
     reverse_markdown (2.1.1)
       nokogiri
     rexml (3.2.6)
-    roda (3.73.0)
+    roda (3.75.0)
       rack
-    rubocop (1.57.2)
+    rubocop (1.59.0)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
       parallel (~> 1.10)
@@ -73,16 +64,16 @@ GEM
       rainbow (>= 2.2.2, < 4.0)
       regexp_parser (>= 1.8, < 3.0)
       rexml (>= 3.2.5, < 4.0)
-      rubocop-ast (>= 1.28.1, < 2.0)
+      rubocop-ast (>= 1.30.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 3.0)
-    rubocop-ast (1.29.0)
+    rubocop-ast (1.30.0)
       parser (>= 3.2.1.0)
     rubocop-minitest (0.33.0)
       rubocop (>= 1.39, < 2.0)
-    rubocop-performance (1.19.1)
-      rubocop (>= 1.7.0, < 2.0)
-      rubocop-ast (>= 0.4.0)
+    rubocop-performance (1.20.0)
+      rubocop (>= 1.48.1, < 2.0)
+      rubocop-ast (>= 1.30.0, < 2.0)
     rubocop-rake (0.6.0)
       rubocop (~> 1.0)
     rubocop-sequel (0.3.4)
@@ -91,7 +82,7 @@ GEM
     ruby-progressbar (1.13.0)
     ruby_parser (3.20.3)
       sexp_processor (~> 4.16)
-    sequel (5.74.0)
+    sequel (5.75.0)
       bigdecimal
     sexp_processor (4.17.0)
     solargraph (0.48.0)
@@ -120,8 +111,7 @@ GEM
 PLATFORMS
   universal-java-1.8
   universal-java-11
-  universal-java-17
-  x86_64-linux
+  universal-java-21
 
 DEPENDENCIES
   fasterer (~> 0.10.1)
@@ -145,4 +135,4 @@ DEPENDENCIES
   yard (~> 0.9.34)
 
 BUNDLED WITH
-   2.4.21
+   2.5.3
