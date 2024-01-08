@@ -18,12 +18,10 @@ gem 'roda', '~> 3.73'
 gem 'sequel', '~> 5.74'
 
 group :development do
-  gem 'fasterer', '~> 0.10.1', require: false
   gem 'htmlbeautifier'
   gem 'pry', '~> 0.14.2'
   gem 'pry-debugger-jruby', '~> 2.1'
   gem 'rubocop', require: false
-  gem 'rubocop-minitest', '~> 0.33.0', require: false
   gem 'rubocop-performance', require: false
   gem 'rubocop-rake', '~> 0.6.0', require: false
   gem 'rubocop-sequel', '~> 0.3.4', require: false
