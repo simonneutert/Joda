@@ -31,6 +31,8 @@ Java docs?! Java ecosystem?! They do what? How on earth? Cheesus ... 🤢
 
 ## Run
 
+Your Java version should be pinned to `11.x` as this is what the CI is running on. MacOS checks for JRuby run on Java v8.
+
 if one of you gets this going on another OS, please submit a PR with some handy notes ✌️
 
 ### Docker

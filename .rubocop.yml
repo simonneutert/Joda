@@ -1,25 +1,6 @@
-# The behavior of RuboCop can be controlled via the .rubocop.yml
-# configuration file. It makes it possible to enable/disable
-# certain cops (checks) and to alter their behavior if they accept
-# any parameters. The file can be placed either in your home
-# directory or in some project directory.
-#
-# RuboCop will start looking for the configuration file in the directory
-# where the inspected file is and continue its way up to the root directory.
-#
-# See https://docs.rubocop.org/rubocop/configuration
-
-require:
-  - rubocop-minitest
-  - rubocop-rake
-  - rubocop-performance
-  - rubocop-sequel
-
 AllCops:
-  TargetRubyVersion: "3.0"
+  NewCops: enable
 
 Metrics/BlockLength:
-  Enabled: false
-
-Style/Documentation:
-  Enabled: false
+  Exclude:
+    - app.rb
