@@ -10,7 +10,7 @@ group :database do
   gem 'jdbc-h2', '~> 2.0'
 end
 
-gem 'puma', '~> 6.4'
+gem 'puma', '~> 6.4.2'
 gem 'rack-unreloader', '~> 2.1'
 gem 'rackup', '~> 2.1.0'
 gem 'rake', '~> 13.1'
@@ -20,6 +20,7 @@ gem 'sequel', '~> 5.74'
 group :development do
   gem 'fasterer', '~> 0.10.1', require: false
   gem 'htmlbeautifier'
+  gem 'pry', '~> 0.14.2'
   gem 'pry-debugger-jruby', '~> 2.1'
   gem 'rubocop', require: false
   gem 'rubocop-minitest', '~> 0.33.0', require: false
