@@ -16,20 +16,21 @@ gem 'rackup', '~> 2.1.0'
 gem 'rake', '~> 13.1'
 gem 'roda', '~> 3.73'
 gem 'sequel', '~> 5.74'
+gem 'tilt', '~> 2.6'
 
 group :development do
   gem 'htmlbeautifier'
   gem 'pry', '~> 0.14.2'
   gem 'pry-debugger-jruby', '~> 2.1'
   gem 'rubocop', require: false
+  gem 'rubocop-minitest', require: false
   gem 'rubocop-performance', require: false
   gem 'rubocop-rake', '~> 0.6.0', require: false
   gem 'rubocop-sequel', '~> 0.3.4', require: false
-  gem 'solargraph', '~> 0.48.0', require: false, platform: :jruby
   gem 'yard', '~> 0.9.34'
 end
 
 group :test do
-  gem 'minitest', '~> 5.20'
+  gem 'minitest', '~> 5.2'
   gem 'rack-test', '~> 2.1'
 end

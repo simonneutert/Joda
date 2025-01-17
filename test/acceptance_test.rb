@@ -14,24 +14,28 @@ class TestApp < Minitest::Test
 
   def test_root
     get '/'
-    assert last_response.redirect?
-    assert_equal last_response.location, '/hello'
+
+    assert_predicate last_response, :redirect?
+    assert_equal '/hello', last_response.location
   end
 
   def test_root_redirection
     get '/'
     follow_redirect!
-    assert last_response.ok?
-    assert_equal last_response.body, 'Hello!'
+
+    assert_predicate last_response, :ok?
+    assert_equal 'Hello!', last_response.body
   end
 
   def test_api_health
     get '/api/health'
-    assert last_response.ok?
+
+    assert_predicate last_response, :ok?
   end
 
   def test_api_v1_health
     get '/api/v1/health'
-    assert last_response.ok?
+
+    assert_predicate last_response, :ok?
   end
 end
