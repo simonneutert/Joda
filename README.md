@@ -4,7 +4,7 @@ And here it is 🎉 My template for Ruby's notorious web router [Roda](https://r
 
 Start the server with `$ rackup`, then benchmark (see below) as unscientifically as possible (but easy as pie), using [HTTPie](https://httpie.io):
 
-_🤫 or for production sth like: `$ jruby --server -S bundle exec rackup -o 0 -E production`_
+_🤫 or for production, sth. like: `$ jruby --server -S bundle exec rackup -o 0 -E production`_
 
 `$ time http :9292/jsondata >/dev/null`  
 sucks 25mb from your server 🧛‍♀️
