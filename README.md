@@ -2,6 +2,8 @@
 
 And here it is 🎉 My template for Ruby's notorious web router [Roda](https://roda.jeremyevans.net) - running on the JVM ([JRuby](https://www.jruby.org))! 🌋
 
+Focussing on JRuby v10+ 🥳
+
 Start the server with `$ rackup`, then benchmark (see below) as unscientifically as possible (but easy as pie), using [HTTPie](https://httpie.io):
 
 _🤫 or for production, sth. like: `$ jruby --server -S bundle exec rackup -o 0 -E production`_
@@ -31,9 +33,9 @@ Java docs?! Java ecosystem?! They do what? How on earth? Cheesus ... 🤢
 
 ## Run
 
-Your Java version should be pinned to `11.x` as this is what the CI is running on. MacOS checks for JRuby run on Java v8.
+Your Java version should be pinned to `21.x` or higher as this is what the CI is running on.
 
-if one of you gets this going on another OS, please submit a PR with some handy notes ✌️
+If one of you gets this going on another OS, please submit a PR with some handy notes ✌️
 
 ### Docker
 
@@ -63,9 +65,9 @@ please, see the docs of your [asdf-vm](https://asdf-vm.com) java plugin ([docs o
 
 Then fire the following commands:
 
-- `$ asdf install java microsoft-17.35.1`
+- `$ asdf install java temurin-22.0.2+9`
 - `$ asdf reshim`
-- `$ asdf install ruby jruby-9.4.1.0`
+- `$ asdf install ruby jruby-10.0.1.0`
 - `$ bundle install -j4`
 - `$ jruby -S rackup`
 
