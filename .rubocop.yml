@@ -1,8 +1,10 @@
 require:
-  - rubocop-performance
-  - rubocop-minitest
   - rubocop-rake
   - rubocop-sequel
+
+plugins:
+  - rubocop-performance
+  - rubocop-minitest
 
 AllCops:
   NewCops: enable
