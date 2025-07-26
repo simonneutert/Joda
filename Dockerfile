@@ -1,11 +1,11 @@
-FROM jruby:9.4-jdk17
+FROM jruby:10-jdk21
 
-RUN apt-get update -y && apt-get install netbase libjemalloc2 -y
+RUN apt-get update -y && apt-get install netbase libjemalloc2 build-essential -y
 
 ENV WORKDIR=/app
 WORKDIR ${WORKDIR}
 
-COPY Gemfile* ./
+COPY Gemfile ./
 RUN bundle install -j4
 
 COPY views ./views
@@ -15,5 +15,4 @@ COPY db.rb app.rb config.ru ./
 
 EXPOSE 9292
 
-# CMD rackup -o0 -Eproduction
-CMD rackup -o0
+CMD ["bundle", "exec", "puma", "-t", "4:16", "-p", "9292", "-e", "production", "--preload"]
