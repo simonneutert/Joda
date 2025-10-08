@@ -13,8 +13,6 @@ end
 group :development do
   gem 'htmlbeautifier'
   gem 'prism', '~> 1.4'
-  gem 'pry', '~> 0.14.2'
-  gem 'pry-debugger-jruby', '~> 2.1'
   gem 'rubocop', require: false
   gem 'rubocop-minitest', require: false
   gem 'rubocop-performance', require: false

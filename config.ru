@@ -10,7 +10,7 @@ Bundler.require
 require 'rack/deflater'
 require 'roda'
 require 'json'
-require 'pry' if dev
+require 'irb' if dev
 
 require 'logger'
 logger = Logger.new($stdout)
