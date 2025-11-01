@@ -28,7 +28,7 @@ end
 
 gem 'logger', '~> 1.7'
 gem 'ostruct', '~> 0.6.3'
-gem 'puma', '~> 6.4.2'
+gem 'puma', '~> 7.1.0'
 gem 'rack-unreloader', '~> 2.1'
 gem 'rackup', '~> 2.2.1'
 gem 'rake', '~> 13.3'
