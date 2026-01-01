@@ -12,13 +12,13 @@ end
 
 group :development do
   gem 'htmlbeautifier'
-  gem 'prism', '~> 1.6'
+  gem 'prism', '~> 1.7'
   gem 'rubocop', require: false
   gem 'rubocop-minitest', require: false
   gem 'rubocop-performance', require: false
   gem 'rubocop-rake', '~> 0.7.1', require: false
   gem 'rubocop-sequel', '~> 0.4.1', require: false
-  gem 'yard', '~> 0.9.34'
+  gem 'yard', '~> 0.9.38'
 end
 
 group :test do
@@ -30,8 +30,8 @@ gem 'logger', '~> 1.7'
 gem 'ostruct', '~> 0.6.3'
 gem 'puma', '~> 7.1.0'
 gem 'rack-unreloader', '~> 2.1'
-gem 'rackup', '~> 2.2.1'
+gem 'rackup', '~> 2.3.1'
 gem 'rake', '~> 13.3'
-gem 'roda', '~> 3.97'
-gem 'sequel', '~> 5.97'
+gem 'roda', '~> 3.99'
+gem 'sequel', '~> 5.99'
 gem 'tilt', '~> 2.6'
