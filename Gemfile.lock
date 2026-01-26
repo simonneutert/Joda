@@ -20,10 +20,10 @@ GEM
     parser (3.3.10.0)
       ast (~> 2.4.1)
       racc
-    prism (1.7.0)
-    puma (7.1.0)
+    prism (1.8.0)
+    puma (7.2.0)
       nio4r (~> 2.0)
-    puma (7.1.0-java)
+    puma (7.2.0-java)
       nio4r (~> 2.0)
     racc (1.8.1)
     racc (1.8.1-java)
@@ -36,7 +36,7 @@ GEM
     rainbow (3.1.1)
     rake (13.3.1)
     regexp_parser (2.11.3)
-    roda (3.99.0)
+    roda (3.100.0)
       rack
     rubocop (1.82.1)
       json (~> 2.3)
@@ -67,9 +67,9 @@ GEM
       lint_roller (~> 1.1)
       rubocop (>= 1.72.1, < 2)
     ruby-progressbar (1.13.0)
-    sequel (5.99.0)
+    sequel (5.100.0)
       bigdecimal
-    tilt (2.6.1)
+    tilt (2.7.0)
     unicode-display_width (3.2.0)
       unicode-emoji (~> 4.1)
     unicode-emoji (4.2.0)
@@ -89,20 +89,20 @@ DEPENDENCIES
   logger (~> 1.7)
   minitest (~> 6.0)
   ostruct (~> 0.6.3)
-  prism (~> 1.7)
-  puma (~> 7.1.0)
+  prism (~> 1.8)
+  puma (~> 7.2.0)
   rack-test (~> 2.1)
   rack-unreloader (~> 2.1)
   rackup (~> 2.3.1)
   rake (~> 13.3)
-  roda (~> 3.99)
+  roda (~> 3.100)
   rubocop
   rubocop-minitest
   rubocop-performance
   rubocop-rake (~> 0.7.1)
   rubocop-sequel (~> 0.4.1)
-  sequel (~> 5.99)
-  tilt (~> 2.6)
+  sequel (~> 5.100)
+  tilt (~> 2.7)
   yard (~> 0.9.38)
 
 BUNDLED WITH
