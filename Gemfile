@@ -12,7 +12,7 @@ end
 
 group :development do
   gem 'htmlbeautifier'
-  gem 'prism', '~> 1.7'
+  gem 'prism', '~> 1.8'
   gem 'rubocop', require: false
   gem 'rubocop-minitest', require: false
   gem 'rubocop-performance', require: false
@@ -28,10 +28,10 @@ end
 
 gem 'logger', '~> 1.7'
 gem 'ostruct', '~> 0.6.3'
-gem 'puma', '~> 7.1.0'
+gem 'puma', '~> 7.2.0'
 gem 'rack-unreloader', '~> 2.1'
 gem 'rackup', '~> 2.3.1'
 gem 'rake', '~> 13.3'
-gem 'roda', '~> 3.99'
-gem 'sequel', '~> 5.99'
-gem 'tilt', '~> 2.6'
+gem 'roda', '~> 3.100'
+gem 'sequel', '~> 5.100'
+gem 'tilt', '~> 2.7'
