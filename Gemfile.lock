@@ -17,10 +17,10 @@ GEM
     nio4r (2.7.5-java)
     ostruct (0.6.3)
     parallel (1.27.0)
-    parser (3.3.10.0)
+    parser (3.3.10.1)
       ast (~> 2.4.1)
       racc
-    prism (1.8.0)
+    prism (1.9.0)
     puma (7.2.0)
       nio4r (~> 2.0)
     puma (7.2.0-java)
@@ -38,7 +38,7 @@ GEM
     regexp_parser (2.11.3)
     roda (3.100.0)
       rack
-    rubocop (1.82.1)
+    rubocop (1.84.0)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
@@ -46,7 +46,7 @@ GEM
       parser (>= 3.3.0.2)
       rainbow (>= 2.2.2, < 4.0)
       regexp_parser (>= 2.9.3, < 3.0)
-      rubocop-ast (>= 1.48.0, < 2.0)
+      rubocop-ast (>= 1.49.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 4.0)
     rubocop-ast (1.49.0)
@@ -67,7 +67,7 @@ GEM
       lint_roller (~> 1.1)
       rubocop (>= 1.72.1, < 2)
     ruby-progressbar (1.13.0)
-    sequel (5.100.0)
+    sequel (5.101.0)
       bigdecimal
     tilt (2.7.0)
     unicode-display_width (3.2.0)
@@ -89,7 +89,7 @@ DEPENDENCIES
   logger (~> 1.7)
   minitest (~> 6.0)
   ostruct (~> 0.6.3)
-  prism (~> 1.8)
+  prism (~> 1.9)
   puma (~> 7.2.0)
   rack-test (~> 2.1)
   rack-unreloader (~> 2.1)
@@ -101,7 +101,7 @@ DEPENDENCIES
   rubocop-performance
   rubocop-rake (~> 0.7.1)
   rubocop-sequel (~> 0.4.1)
-  sequel (~> 5.100)
+  sequel (~> 5.101)
   tilt (~> 2.7)
   yard (~> 0.9.38)
 
