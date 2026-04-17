@@ -18,7 +18,7 @@ group :development do
   gem 'rubocop-performance', require: false
   gem 'rubocop-rake', '~> 0.7.1', require: false
   gem 'rubocop-sequel', '~> 0.4.1', require: false
-  gem 'yard', '~> 0.9.38'
+  gem 'yard', '~> 0.9.42'
 end
 
 group :test do
