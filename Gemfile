@@ -18,7 +18,7 @@ group :development do
   gem 'rubocop-performance', require: false
   gem 'rubocop-rake', '~> 0.7.1', require: false
   gem 'rubocop-sequel', '~> 0.4.1', require: false
-  gem 'yard', '~> 0.9.42'
+  gem 'yard', '~> 0.9.44'
 end
 
 group :test do
@@ -28,10 +28,10 @@ end
 
 gem 'logger', '~> 1.7'
 gem 'ostruct', '~> 0.6.3'
-gem 'puma', '~> 8.0.1'
+gem 'puma', '~> 8.0.2'
 gem 'rack-unreloader', '~> 2.1'
 gem 'rackup', '~> 2.3.1'
 gem 'rake', '~> 13.3'
-gem 'roda', '~> 3.102'
-gem 'sequel', '~> 5.104'
+gem 'roda', '~> 3.104'
+gem 'sequel', '~> 5.105'
 gem 'tilt', '~> 2.7'
