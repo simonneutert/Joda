@@ -7,9 +7,9 @@ GEM
     drb (2.2.3)
     htmlbeautifier (1.4.3)
     jdbc-h2 (2.0.204)
-    json (2.20.0)
-    json (2.20.0-java)
-    language_server-protocol (3.17.0.5)
+    json (2.21.2)
+    json (2.21.2-java)
+    language_server-protocol (3.17.0.6)
     lint_roller (1.1.0)
     logger (1.7.0)
     minitest (6.0.6)
@@ -19,7 +19,7 @@ GEM
     nio4r (2.7.5-java)
     ostruct (0.6.3)
     parallel (2.1.0)
-    parser (3.3.11.1)
+    parser (3.3.12.0)
       ast (~> 2.4.1)
       racc
     prism (1.9.0)
@@ -38,9 +38,9 @@ GEM
     rainbow (3.1.1)
     rake (13.4.2)
     regexp_parser (2.12.0)
-    roda (3.105.0)
+    roda (3.106.0)
       rack
-    rubocop (1.88.1)
+    rubocop (1.88.2)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
@@ -51,10 +51,10 @@ GEM
       rubocop-ast (>= 1.49.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 4.0)
-    rubocop-ast (1.49.1)
+    rubocop-ast (1.50.0)
       parser (>= 3.3.7.2)
       prism (~> 1.7)
-    rubocop-minitest (0.39.1)
+    rubocop-minitest (0.40.0)
       lint_roller (~> 1.1)
       rubocop (>= 1.75.0, < 2.0)
       rubocop-ast (>= 1.38.0, < 2.0)
@@ -71,11 +71,11 @@ GEM
     ruby-progressbar (1.13.0)
     sequel (5.106.0)
       bigdecimal
-    tilt (2.7.0)
+    tilt (2.8.0)
     unicode-display_width (3.2.0)
       unicode-emoji (~> 4.1)
     unicode-emoji (4.2.0)
-    yard (0.9.44)
+    yard (0.9.45)
 
 PLATFORMS
   universal-java-11
@@ -97,15 +97,15 @@ DEPENDENCIES
   rack-unreloader (~> 2.1)
   rackup (~> 2.3.1)
   rake (~> 13.3)
-  roda (~> 3.105)
+  roda (~> 3.106)
   rubocop
   rubocop-minitest
   rubocop-performance
   rubocop-rake (~> 0.7.1)
   rubocop-sequel (~> 0.4.1)
   sequel (~> 5.106)
-  tilt (~> 2.7)
-  yard (~> 0.9.44)
+  tilt (~> 2.8)
+  yard (~> 0.9.45)
 
 BUNDLED WITH
   4.0.10
