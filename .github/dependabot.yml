@@ -17,3 +17,29 @@ updates:
       timezone: "Europe/Berlin"
     assignees:
       - "simonneutert"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    groups:
+      github-actions:
+        patterns: ["*"]
+    schedule:
+      interval: "monthly"
+      day: "wednesday"
+      time: "18:45"
+      timezone: "Europe/Berlin"
+    assignees:
+      - "simonneutert"
+
+  - package-ecosystem: "docker"
+    directory: "/example"
+    groups:
+      docker-images:
+        patterns: ["*"]
+    schedule:
+      interval: "monthly"
+      day: "wednesday"
+      time: "18:45"
+      timezone: "Europe/Berlin"
+    assignees:
+      - "simonneutert"
