@@ -23,7 +23,7 @@ end
 
 group :test do
   gem 'minitest', '~> 6.0'
-  gem 'rack-test', '~> 2.1'
+  gem 'rack-test', '~> 2.3'
 end
 
 gem 'logger', '~> 1.7'
@@ -32,6 +32,6 @@ gem 'puma', '~> 8.0.2'
 gem 'rack-unreloader', '~> 2.1'
 gem 'rackup', '~> 2.3.1'
 gem 'rake', '~> 13.3'
-gem 'roda', '~> 3.108'
-gem 'sequel', '~> 5.108'
+gem 'roda', '~> 3.109'
+gem 'sequel', '~> 5.109'
 gem 'tilt', '~> 2.9'
